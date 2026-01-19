@@ -1,0 +1,39 @@
+body {
+  font-family: Poppins, sans-serif;
+  background: linear-gradient(135deg,#ffb3b3,#ff8080);
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.login-box {
+  background: white;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}

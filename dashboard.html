@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZenDesk Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1 class="title">ZenDesk</h1>
+  <p class="subtitle">Track & Complete Your Tasks</p>
+</header>
+
+<div class="dashboard">
+  <div class="card" onclick="goTo('weekly')">📅 Weekly Schedule</div>
+  <div class="card" onclick="goTo('today')">📝 Today Tasks</div>
+  <div class="card" onclick="goTo('notes')">🗒 Notes</div>
+  <div class="card" onclick="goTo('reminders')">⏰ Reminders</div>
+</div>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>
